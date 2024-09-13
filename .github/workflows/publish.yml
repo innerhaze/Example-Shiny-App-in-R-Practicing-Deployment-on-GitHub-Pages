@@ -27,6 +27,10 @@ jobs:
         with:
           cache-version: 1
 
+      - name: Install additional R packages
+        run: |
+          Rscript -e 'install.packages(c("yaml", "shinylive"))'
+          
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
