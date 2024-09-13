@@ -10,3 +10,7 @@ This repository contains a demonstration of a Shiny app using the `shinylive` pa
 - `R-shinylive-demo.html`: Rendered HTML document of the Quarto file.
 - `shinylive-sw.js`: Service worker file for `shinylive`.
 - `_extensions/quarto-ext/shinylive`: Directory for `shinylive` extension files.
+
+You can view the deployed Shiny app and check the work at the following link:
+
+[View the Shiny App](https://innerhaze.github.io/Example-Shiny-App-in-R-Practicing-Deployment-on-GitHub-Pages/)
